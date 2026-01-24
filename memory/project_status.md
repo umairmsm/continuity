@@ -8,9 +8,10 @@ Build a terminal-based AI agent that manages its own development and documentati
 ## Current Objectives
 - [x] Setup folder structure.
 - [x] Configure Git Backup.
-- [ ] Install Python dependencies.
-- [ ] Connect Gemini 1.5 Pro API.
-- [ ] Create the basic loop (Chat + Context).
+- [x] Install Python dependencies.
+- [x] Connect Gemini 1.5 Pro API.
+- [x] Create the basic loop (Chat + Context).
+- [x] Upgrade to Gemini 2.5
 
 ## Technical Constraints
 - Language: Python 3.10+

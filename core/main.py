@@ -11,7 +11,7 @@ from rich.markdown import Markdown
 load_dotenv()
 API_KEY = os.getenv("GEMINI_API_KEY")
 # The NEW SDK can access the stable model
-MODEL_NAME = "gemini-2.0-flash-lite-preview-02-05" 
+MODEL_NAME = "gemini-2.5-flash"
 
 console = Console()
 
