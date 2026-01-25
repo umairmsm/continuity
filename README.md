@@ -1,34 +1,35 @@
-# Continuity: The AI Project Manager
+# 🚀 Continuity: Your Personal AI Employee
 
-**Continuity** is an autonomous terminal-based AI agent that manages your project, edits files, and handles Git version control automatically. Built with Google Gemini 2.0 Flash Lite.
+> **"Imagine if your terminal could think, code, and save its own work."**
 
-## 🚀 Features
-* **Context Awareness:** Automatically reads `memory/project_status.md` to understand the project state.
-* **Autonomous File Editing:** Can read, write, and update code files without copy-pasting.
-* **Git Integration:** Auto-backups with intelligent commit messages (`git add .` -> `git commit`).
-* **Self-Healing:** Includes auto-retry logic for API rate limits.
+## 🤔 What is this?
+**Continuity** is not just a chatbot. It is a **Digital Intern** that lives in your computer.
+* It reads your project files.
+* It writes code for you.
+* It automatically saves everything to GitHub so you never lose work.
 
-## 📦 Installation
+## ⚡ How to Start
+You don't need to be a coding wizard. Just run these commands:
 
-1.  **Clone the repo:**
+1.  **Install the Brain:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/continuity.git](https://github.com/YOUR_USERNAME/continuity.git)
-    cd continuity
+    pip install -r requirements.txt
     ```
 
-2.  **Install dependencies:**
+2.  **Wake it Up:**
     ```bash
-    pip install google-generativeai typer rich python-dotenv
+    python3 core/main.py
     ```
 
-3.  **Setup API Key:**
-    Create a `.env` file:
-    ```text
-    GEMINI_API_KEY=your_google_api_key_here
-    ```
+3.  **Give an Order:**
+    * *"Create a new file called hello.py"*
+    * *"Update the status report"*
+    * *"Backup my work"*
 
-## 🛠️ Usage
+## 🛠️ Powered By
+* **Google Gemini 2.5:** The latest AI brain.
+* **Python:** The muscle.
+* **Git:** The memory.
 
-Start the agent:
-```bash
-python3 core/main.py
+---
+*Built with ❤️ by Umair (umairmsm)*
